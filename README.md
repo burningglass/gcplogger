@@ -29,7 +29,7 @@ On the local Desktop (using the Command Prompt):
 
 This technical account is needed to secure the transport channel from applications to the Cloud log(s)
 
-### 3.1 Create the script
+### 2.1 Create the script
 
 Switch to the same subfolder (see above):
 
@@ -41,7 +41,7 @@ Create the script file, a complete script is available here:
 
 Be sure to replace the [PROJECT_ID] placeholder in this script
 
-### 3.2 Execute the script to create the Service Account
+### 2.2 Execute the script to create the Service Account
 
 Execute the script, carefully monitoring its output to ensure no errors with service account set-up
 
@@ -57,9 +57,9 @@ Note. This output file (`/var/.tokens/.sa-pk.json`) is referenced by the applica
 
 **Important:** The .sa-pk.json (a secret token) should remain **outside** version control and **never copied** into application artifacts
 
-## 4 Develop the service application
+## 3 Develop a test application
 
-### 4.1 Create the Python virtual environment
+### 3.1 Create the Python virtual environment
 
 Use VS Code Terminal to create the application's Python virtual environment
 
@@ -72,7 +72,7 @@ Create the virtual environment:
 
 `python -m venv .venv`
 
-### 4.2 Activate the virtual environment
+### 3.2 Activate the virtual environment
 
 Activate the virtual environment (the .venv folder should appear in the project folder):
 
@@ -90,12 +90,12 @@ The final command should now reveal only those Python packages installed for thi
 
 ![Setting script execution policy](README.images/Picture4.png)
 
-### 4.3 Open VS Code within the project folder
+### 3.3 Open VS Code within the project folder
 
 `cd %HOMEPATH%\projects\gcplogger`<br/>
 `code .`
 
-### 4.4 Install python-dotenv to enable Env support
+### 3.4 Install python-dotenv to enable Env support
 
 This will allow the Python application to read key-value pairs from an .env file in the root project folder
 
