@@ -37,7 +37,7 @@ Switch to the same subfolder (see above):
 
 Create the script file, a complete script is available here:
 
-[createServiceAccount script](ToDo createServiceAccount.sh)
+[createServiceAccount script](https://github.com/burningglass/gcplogger/blob/main/logsetup/createServiceAccount.sh)
 
 Be sure to replace the [PROJECT_ID] placeholder in this script
 
@@ -47,7 +47,7 @@ Execute the script, carefully monitoring its output to ensure no errors with ser
 
 If the script executed successfully, the new service account should be visible from the GCloud dashboard Service Accounts page - see below:
 
-![Browsing Service Accounts] Picture here)
+![Browsing Service Accounts](https://github.com/burningglass/registrationstore/blob/main/README.images/Picture3.png)
 
 **Important:** The output is a file called sa-pk.json, ensure that you rename this with a '.' prefix (to .sa-pk.json) so filesystems will hide it
 
