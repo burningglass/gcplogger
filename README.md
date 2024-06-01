@@ -159,3 +159,13 @@ Under `%HOMEPATH%\projects\gcplogger`:
 `git add requirements.txt`<br/>
 `git commit -m "Initial bulk (GCloud logger) code upload"`<br/>
 `git push`<br/>
+
+## 5 Check GCLoud Logs for written entries
+
+![View All Products](README.images/Picture5.png)
+
+![Access GCloud Logs](README.images/Picture6.png)
+
+![Log Dashboard](README.images/Picture7.png)
+
+![Jump To Now](README.images/Picture8.png)
