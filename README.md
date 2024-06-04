@@ -149,7 +149,7 @@ Under `%HOMEPATH%\projects\gcplogger`:
 `git config --global user.name "<ContributorName>"`<br/>
 `git config --global user.email "<ContributorEmailAddress>"`
 
-### 5.2 Push code and config back to GitHub
+### 4.2 Push code and config back to GitHub
 
 Under `%HOMEPATH%\projects\gcplogger`:
 
@@ -168,6 +168,26 @@ In GCloud Console, in the menu 'View All Products' and then choose 'Observabilit
 
 ![Access GCloud Logs](README.images/Picture6.png)
 
+In the Logging Dashboard, select the name of the log (created and written to by the above Python script) and 'Jump to Now' to see the written log entries
+
 ![Log Dashboard](README.images/Picture7.png)
 
 ![Jump To Now](README.images/Picture8.png)
+
+## 6 Capturing/Aggregating Logs from Individual Hosts
+
+GCLoud Logging can serve as an aggregator for logs accumulating on hosts across an organization
+
+Simple shipping of logs from hosts to GCloud is achievable via https://www.fluentbit.io/
+
+To test this, switch to "Compute Engine" in the menu and "VM Instances" and create a very cheap Compute Engine VM on GCloud (e.g. a low-spec. E2 SPOT machine with a CentOS 9 Boot Disk)
+
+![Jump To Now](README.images/Picture9.png)
+
+![Jump To Now](README.images/Picture10.png)
+
+![Jump To Now](README.images/Picture11.png)
+
+![Jump To Now](README.images/Picture12.png)
+
+
