@@ -162,6 +162,8 @@ Under `%HOMEPATH%\projects\gcplogger`:
 
 ## 5 Check GCLoud Logs for written entries
 
+In GCloud Console, in the menu 'View All Products' and then choose 'Observability' and 'Logging'
+
 ![View All Products](README.images/Picture5.png)
 
 ![Access GCloud Logs](README.images/Picture6.png)
